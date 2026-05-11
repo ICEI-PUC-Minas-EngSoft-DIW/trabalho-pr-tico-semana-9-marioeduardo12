@@ -1,0 +1,102 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
+
+.filtros {
+    padding: 15px;
+    text-align: center;
+}
+
+.filtros input, .filtros select {
+    padding: 8px;
+    font-size: 14px;
+    margin: 5px;
+}
+
+main {
+    padding: 15px;
+}
+
+.lista-produtos {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
+}
+
+.card {
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    width: 220px;
+    text-align: center;
+}
+
+.card:hover {
+    border-color: #888;
+}
+
+.card img {
+    width: 100%;
+    height: 140px;
+    object-fit: cover;
+    background-color: #eee;
+}
+
+.card h3 {
+    font-size: 16px;
+    margin: 10px 0 5px 0;
+}
+
+.card p {
+    margin: 5px 0;
+    font-size: 14px;
+}
+
+.card button {
+    background-color: #4a7;
+    color: white;
+    border: none;
+    padding: 6px 10px;
+    margin: 3px;
+    cursor: pointer;
+    border-radius: 3px;
+    font-size: 13px;
+}
+
+.card button:hover {
+    background-color: #386;
+}
+
+.destacado {
+    border: 2px solid orange;
+    background-color: #fff8e1;
+}
+
+.area-detalhes {
+    background-color: white;
+    border: 1px solid #ccc;
+    padding: 15px;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+
+.sem-estoque {
+    color: red;
+    font-weight: bold;
+}
+
+.em-estoque {
+    color: green;
+}
